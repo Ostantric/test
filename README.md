@@ -16,6 +16,7 @@ roslaunch convert_joystick teleop.launch
 ### NOTE
 if you have this problem;
 ```
+<p style='color:red'>This is some red text.</p>
 [ERROR] [1510716314.539557608]: Couldn't open joystick /dev/input/js0. Will retry every second.
 ```
 Make sure you plugged in the joystick and your joystick shown as js0 under input.
@@ -25,6 +26,7 @@ ls /dev/input/
 ```
 Then find the line and change the js0 value in launch file.
 ```diff
+<p style='color:red'>This is some red text.</p>
 <param name="dev" type="string" value="/dev/input/+js0" />
 ```
 <p style='color:red'>This is some red text.</p>
