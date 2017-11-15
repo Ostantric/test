@@ -1,4 +1,4 @@
-### INSTALL
+# INSTALL
 
 ``` bash 
 source /opt/ros/kinetic/setup.bash
@@ -7,7 +7,7 @@ cd worksapce
 git clone -b murat https://bitbucket.org/mark_turner_sahaiku/prototype/src
 catkin_make
 ```
-### RUN
+# RUN
 This launch file will run the  convert_joystick, joy_node and the roscore
 
 ``` bash 
