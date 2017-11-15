@@ -26,7 +26,7 @@ ls /dev/input/
 ```
 if its different than js0 then find this line in the launch file and change the js0 value.
 ```diff
-<param name="dev" type="string" value="/dev/input/+js0" />
+<param name="dev" type="string" value="/dev/input/js0" />
 ```
 
 
