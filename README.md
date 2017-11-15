@@ -9,5 +9,5 @@ catkin_make
 roslaunch convert_joystick teleop.launch
 ```
 
-<img src="/rosgraph.svg" 
+<img src="/rosgraph.svg">
 
