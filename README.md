@@ -24,7 +24,7 @@ You can check the js-number by executing this
 ``` bash 
 ls /dev/input/
 ```
-Then find this line and change the js0 value in launch file.
+if its different than js0 then find this line in the launch file and change the js0 value.
 ```diff
 <param name="dev" type="string" value="/dev/input/+js0" />
 ```
