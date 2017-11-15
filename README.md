@@ -27,7 +27,7 @@ Then find the line and change the js0 value in launch file.
 ```diff
 <param name="dev" type="string" value="/dev/input/+js0" />
 ```
-
+<p style='color:red'>This is some red text.</p>
 
 ### RQT GRAPH
 
