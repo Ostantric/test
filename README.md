@@ -1,4 +1,4 @@
-### Installation
+### INSTALL
 
 ``` bash 
 source /opt/ros/kinetic/setup.bash
