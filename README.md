@@ -24,6 +24,9 @@ You can check the js-number by executing this
 ls /dev/input/
 ```
 
+### RQT GRAPH
+
+Ignore rostopic_21425(topic echos cmd_vel)
 
 <img src="/rosgraph.svg">
 
