@@ -14,7 +14,7 @@ This launch file will run the  convert_joystick, joy_node and the roscore
 roslaunch convert_joystick teleop.launch
 ```
 ### NOTE
-if you have this;
+if you have this problem;
 ```
 [ERROR] [1510716314.539557608]: Couldn't open joystick /dev/input/js0. Will retry every second.
 ```
