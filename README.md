@@ -13,7 +13,7 @@ This launch file will run the  convert_joystick, joy_node and the roscore
 ``` bash 
 roslaunch convert_joystick teleop.launch
 ```
-### NOTE
+## NOTE
 if you have this problem;
 ```
 
