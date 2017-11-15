@@ -23,6 +23,11 @@ You can check the js-number by executing this
 ``` bash 
 ls /dev/input/
 ```
+Then find the line and change the js0 value in launch file.
+```diff
+<param name="dev" type="string" value="/dev/input/+js0" />
+```
+
 
 ### RQT GRAPH
 
