@@ -68,12 +68,12 @@ CheckTask
 
 ### Task.msg layout
 ``` bash 
-"Command:
-  Command: '' #command name
+Command:
+  Command: '' //command name
 Id:
-  Id: 0 #taskid
+  Id: 0 //taskid
 Value:
-  SetRetrieve: false #set true if you want to retrieve
-  SetBoolean: false #set true or false
-  SetNumber: 0.0" #float number
+  SetRetrieve: false //set true if you want to retrieve
+  SetBoolean: false //set true or false
+  SetNumber: 0.0 #float number
 ```
