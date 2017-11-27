@@ -1,11 +1,3 @@
-#MAC Controller
-
-``` bash 
-roslaunch mac_controller bridge.launch
-```
-
-
-
 # INSTALL
 
 ``` bash 
