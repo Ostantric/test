@@ -16,7 +16,7 @@ git clone -b murat https://bitbucket.org/mark_turner_sahaiku/prototype/src
 catkin_make
 ```
 # JOYSTICK
-## RUN
+### RUN
 
 This launch file will run the Dongbu_joy, Dongbu_teleop and the roscore
 
@@ -24,7 +24,7 @@ This launch file will run the Dongbu_joy, Dongbu_teleop and the roscore
 roslaunch convert_joystick teleop.launch
 ```
 
-## NOTE
+### NOTE
 
 if you have this problem;
 ```
