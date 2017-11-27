@@ -67,7 +67,7 @@ CheckTask
 ```
 
 ### Task.msg layout
-```
+``` bash 
 "Command:
   Command: '' #command name
 Id:
