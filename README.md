@@ -1,3 +1,11 @@
+#MAC Controller
+
+``` bash 
+roslaunch mac_controller bridge.launch
+```
+
+
+
 # INSTALL
 
 ``` bash 
@@ -7,13 +15,17 @@ cd worksapce
 git clone -b murat https://bitbucket.org/mark_turner_sahaiku/prototype/src
 catkin_make
 ```
-# RUN
-This launch file will run the  convert_joystick, joy_node and the roscore
+# JOYSTICK
+## RUN
+
+This launch file will run the Dongbu_joy, Dongbu_teleop and the roscore
 
 ``` bash 
 roslaunch convert_joystick teleop.launch
 ```
-# NOTE
+
+## NOTE
+
 if you have this problem;
 ```
 
@@ -25,14 +37,39 @@ You can check the js-number by executing this
 ls /dev/input/
 ```
 if its different than js0 then find this line in the launch file and change the js0 value.
-```diff
-<param name="dev" type="string" value="/dev/input/js0" />
+```
+<param name="joystick_device_file" type="string" value="/dev/input/js0" />
 ```
 
+# MAC-Controller
 
-### RQT GRAPH
+## RUN 
 
-Ignore rostopic_21425(topic echos cmd_vel)
+This launch file will run the Mac_Controller_Bridge and the roscore
 
-<img src="/rosgraph.svg">
+``` bash 
+roslaunch mac_controller bridge.launch 
+```
 
+## NOTE
+
+port can be changed in bridge.py 
+
+```
+ser = serial.Serial(port = '/dev/ttyUSB0', baudrate = 9600, timeout=0.1) 
+```
+
+Commands can be send by publishing 
+```
+input_mac_controller
+```
+
+### List of Commands
+```
+AbortTask
+BeginTask
+StopAxis
+UserBoolean
+UserNumber
+CheckTask
+```
