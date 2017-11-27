@@ -43,7 +43,7 @@ if its different than js0 then find this line in the launch file and change the 
 
 # MAC-Controller
 
-## RUN 
+### RUN 
 
 This launch file will run the Mac_Controller_Bridge and the roscore
 
@@ -51,7 +51,7 @@ This launch file will run the Mac_Controller_Bridge and the roscore
 roslaunch mac_controller bridge.launch 
 ```
 
-## NOTE
+### NOTE
 
 port can be changed in bridge.py 
 
